@@ -7,7 +7,7 @@ import { setToken } from '../../../Localstorage';
 import { useNavigate } from 'react-router-dom';
 function Login() {
   const [login, setlogin] = useState({ email: '', password: '' });
-  const [userId, setUserId] = useState("");
+  // const [userId, setUserId] = useState("");
   const updateform = (e) => {
     setlogin({ ...login, [e.target.name]: e.target.value });
   };
@@ -26,7 +26,7 @@ function Login() {
         localStorage.setItem('token', data.token);
         const decodedToken = jwtDecode(data.token);
         setToken(data.token);
-        setUserId(decodedToken.sub._id);
+        // setUserId(decodedToken.sub._id);
         navigate('/AdminHome');
       })
       .catch((err) => {
