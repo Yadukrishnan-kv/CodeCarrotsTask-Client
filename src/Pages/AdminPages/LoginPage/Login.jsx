@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Login.css'
-import { jwtDecode } from 'jwt-decode';
+
 import axios from 'axios';
 
 import { setToken } from '../../../Localstorage';
