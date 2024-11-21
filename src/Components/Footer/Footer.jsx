@@ -63,13 +63,13 @@ function Footer() {
         <p>Copyright ©Safex | All Right Reserved</p>
       </div>
       <div className="footer-socials">
-        <a href="#"><FaFacebookF style={{fontSize:"30px"}}/></a>
-        <a href="#"><FaTwitter style={{fontSize:"30px"}}/></a>
-        <a href="#"><FaWhatsapp style={{fontSize:"30px"}}/>
+        <a href="https://www.facebook.com/"><FaFacebookF style={{fontSize:"30px"}}/></a>
+        <a href="https://x.com/"><FaTwitter style={{fontSize:"30px"}}/></a>
+        <a href="https://www.whatsapp.com/"><FaWhatsapp style={{fontSize:"30px"}}/>
         </a>
-        <a href="#"><FaInstagram style={{fontSize:"30px"}}/>
+        <a href="https://www.instagram.com/"><FaInstagram style={{fontSize:"30px"}}/>
         </a>
-        <a href="#"><FaYoutube style={{fontSize:"30px"}}/>
+        <a href="https://www.youtube.com/"><FaYoutube style={{fontSize:"30px"}}/>
         </a>
         </div>
       </div>

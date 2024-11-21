@@ -97,10 +97,10 @@ function AboutPageNav() {
         <div className="social-media">
          
           <div className="social-icons">
-            <a href="#" className="social-icon"><FontAwesomeIcon icon={faFacebookF} /></a>
-            <a href="#" className="social-icon"><FontAwesomeIcon icon={faTwitter} /></a>
-            <a href="#" className="social-icon"><FontAwesomeIcon icon={faWhatsapp} /></a>
-            <a href="#" className="social-icon"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="https://www.facebook.com/" className="social-icon"><FontAwesomeIcon icon={faFacebookF} /></a>
+            <a href="https://x.com/" className="social-icon"><FontAwesomeIcon icon={faTwitter} /></a>
+            <a href="https://www.whatsapp.com/" className="social-icon"><FontAwesomeIcon icon={faWhatsapp} /></a>
+            <a href="https://www.instagram.com/" className="social-icon"><FontAwesomeIcon icon={faInstagram} /></a>
           </div>
         </div>
       </div>

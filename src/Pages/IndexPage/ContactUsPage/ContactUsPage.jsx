@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import './ContactUspage.css'
 import { FaLongArrowAltRight } from "react-icons/fa";
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate} from 'react-router-dom';
 import axios from 'axios';
 
 function ContactUsPage() {
   const navigate = useNavigate();
 
-  const { id } = useParams();
+
     const [Contact, setContact] = useState([]);
     const token = localStorage.getItem('token');
     const [Email, setEmail] = useState({

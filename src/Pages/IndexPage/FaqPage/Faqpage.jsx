@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import './FaqPage.css'
 import { FaLongArrowAltRight } from "react-icons/fa";
-import { useParams } from 'react-router-dom';
+
 import axios from 'axios';
 
 
 function Faqpage() {
 
-  const { id } = useParams();
+  
 const [Faq, setFaq] = useState([]);
 const token = localStorage.getItem('token');
 

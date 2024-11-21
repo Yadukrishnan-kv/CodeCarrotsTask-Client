@@ -169,10 +169,10 @@ axios.get("http://localhost:4000/viewclient", {
           <h3>{Team[0]?.membername}</h3>
           <p>{Team[0]?.position}</p>
           <div className="social-icons1">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaPinterest /></a>
+          <a href="https://www.facebook.com/"><FaFacebookF /></a>
+            <a href="https://x.com/"><FaTwitter /></a>
+            <a href="https://www.whatsapp.com/"><FaInstagram /></a>
+            <a href="https://www.instagram.com/"><FaPinterest /></a>
           </div>
         </div>
 
@@ -181,10 +181,10 @@ axios.get("http://localhost:4000/viewclient", {
           <h3>{Team[1]?.membername}</h3>
           <p>{Team[1]?.position}</p>
           <div className="social-icons1">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaPinterest /></a>
+            <a href="https://www.facebook.com/"><FaFacebookF /></a>
+            <a href="https://x.com/"><FaTwitter /></a>
+            <a href="https://www.whatsapp.com/"><FaInstagram /></a>
+            <a href="https://www.instagram.com/"><FaPinterest /></a>
           </div>
         </div>
 
@@ -193,10 +193,10 @@ axios.get("http://localhost:4000/viewclient", {
           <h3>{Team[2]?.membername}</h3>
           <p>{Team[2]?.position}</p>
           <div className="social-icons1">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaPinterest /></a>
+          <a href="https://www.facebook.com/"><FaFacebookF /></a>
+            <a href="https://x.com/"><FaTwitter /></a>
+            <a href="https://www.whatsapp.com/"><FaInstagram /></a>
+            <a href="https://www.instagram.com/"><FaPinterest /></a>
           </div>
         </div>
 
@@ -205,10 +205,10 @@ axios.get("http://localhost:4000/viewclient", {
           <h3>{Team[3]?.membername}</h3>
           <p>{Team[3]?.position}</p>
           <div className="social-icons1">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaPinterest /></a>
+          <a href="https://www.facebook.com/"><FaFacebookF /></a>
+            <a href="https://x.com/"><FaTwitter /></a>
+            <a href="https://www.whatsapp.com/"><FaInstagram /></a>
+            <a href="https://www.instagram.com/"><FaPinterest /></a>
           </div>
         </div>
       </div>

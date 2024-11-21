@@ -40,7 +40,7 @@ function BannerView() {
                 <td>{view[0]?.content}</td>
                 <td>{view[0]?.description}</td>
                 <td><img src={view[0]?.image} alt="Banner" class="simple-img" /></td>
-                <td><img src={view[0]?.images} alt="Image 1" class="simple-img" /></td>
+                <td><img src={view[0]?.images} alt="Banner 1" class="simple-img" /></td>
                
                 <Link to={`/BannerEdit/${view[0]?._id}`}><td><button class="edit-button">Edit</button></td></Link>
             </tr>

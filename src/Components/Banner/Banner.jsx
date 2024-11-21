@@ -43,7 +43,7 @@ function Banner() {
        
       <div className="banner__shape-wrap">
        
-        <img src={view[0]?.images}  alt="Additional banner image"  />
+        <img src={view[0]?.images}  alt="Additional banner "  />
       </div>
 
   </section>
