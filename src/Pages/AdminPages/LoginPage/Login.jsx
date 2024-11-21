@@ -24,7 +24,7 @@ function Login() {
       .then((res) => {
         const data = res.data;
         localStorage.setItem('token', data.token);
-        const decodedToken = jwtDecode(data.token);
+        // const decodedToken = jwtDecode(data.token);
         setToken(data.token);
         // setUserId(decodedToken.sub._id);
         navigate('/AdminHome');
