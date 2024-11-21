@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './AdminHome.css'
-import { FaUserAlt } from "react-icons/fa";
+
 import { Link, useNavigate } from 'react-router-dom'
 
 import { FaHome, FaInfoCircle, FaImages, FaQuestionCircle, FaEnvelope } from "react-icons/fa";
@@ -33,7 +33,7 @@ function AdminHome() {
         <button className="logout-btn" onClick={logout}>
           Logout
         </button>
-     <Link to={'/profile'} style={{textDecoration:"none"}}>  <FaUserAlt style={{color:"black",fontSize:"24px"}}/></Link> 
+    
 
       </div>
     </nav>

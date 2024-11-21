@@ -12,7 +12,7 @@ import Clients from '../Pages/AdminPages/Home/Clients/Clients'
 import Reviews from '../Pages/AdminPages/Home/Reviews/Reviews'
 import News from '../Pages/AdminPages/Home/News/News'
 import Services from '../Pages/AdminPages/Home/Services/Services'
-import Profile from '../Pages/AdminPages/LoginPage/Profile'
+
 import BannerView from '../Pages/AdminPages/Home/Banner/BannerView'
 import WelcomeNoteView from '../Pages/AdminPages/Home/WelcomeNote/WelcomeNoteView'
 import ClientEdit from '../Pages/AdminPages/Home/Clients/ClientEdit'
@@ -57,7 +57,7 @@ function Router() {
             <Route path='/Login' element={ <><Login/></> }></Route>
 
             <Route path='/AdminHome' element={ <><AdminHome/></> }></Route>
-            <Route path='/profile' element={ <><Profile/></> }></Route>
+           
 
             <Route path='/Bannerview' element={ <><BannerView/></> }></Route>
             <Route path='/BannerEdit/:id' element={ <><Banners/></> }></Route>
