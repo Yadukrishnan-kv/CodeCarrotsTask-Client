@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { FaHome, FaInfoCircle, FaImages, FaQuestionCircle, FaEnvelope } from "react-icons/fa";
 import { setToken } from '../../../Localstorage';
 function AdminHome() {
-  const [userId, setuserId] = useState("");
+ 
     const [hovered, setHovered] = useState("");
 
     const handleMouseEnter = (option) => {

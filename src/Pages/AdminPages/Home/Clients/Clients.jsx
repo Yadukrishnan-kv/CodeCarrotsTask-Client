@@ -1,16 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 function Clients() {
 
-    const { id } = useParams();
+    
   const [Client, setClient] = useState([]
    );
   const token = localStorage.getItem('token');
 
-  const update = (e) => {
-    setClient({ ...Client, [e.target.name]: e.target.value });
-  };
+  
 
   useEffect(() => {
     axios.get("http://localhost:4000/viewclient", {

@@ -5,7 +5,7 @@ function Banner() {
 
 
   const [view, setView] = useState([]);
-  const [welcomeNote, setwelcomeNote] = useState([]);
+  
   const token = localStorage.getItem('token');
 
   useEffect(() => {
@@ -21,18 +21,7 @@ function Banner() {
     });
   }, [token]);
 
-  useEffect(() => {
-    axios.get("http://localhost:4000/welcomeNote", {
-      headers: {
-        'Authorization': `Bearer ${token}`
-      }
-    }).then((res) => {
-      console.log(res);
-      setwelcomeNote(res.data);
-    }).catch((err) => {
-      console.log(err);
-    });
-  }, [token]);
+ 
 
   return (
 

@@ -1,9 +1,9 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+
 
 function EmailView() {
-  const { id } = useParams();
+ 
   const [Email, setEmail] = useState([]);
   const token = localStorage.getItem('token');
 

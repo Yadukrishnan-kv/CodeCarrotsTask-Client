@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import './BannerView.css'
 import axios from 'axios';
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 function BannerView() {
     const [view, setView] = useState([]);
-    const { id } = useParams();
+   
   const token = localStorage.getItem('token');
 
   useEffect(() => {

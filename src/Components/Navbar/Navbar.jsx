@@ -2,7 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import { IoLocationOutline } from "react-icons/io5";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaRegClock,FaSearch } from "react-icons/fa6";
+import { FaRegClock} from "react-icons/fa6";
 import { faFacebookF, faTwitter, faWhatsapp, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { MdMenu } from "react-icons/md";

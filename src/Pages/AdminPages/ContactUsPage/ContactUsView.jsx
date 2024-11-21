@@ -1,9 +1,9 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function ContactUsView() {
-    const { id } = useParams();
+  
     const [Contact, setContact] = useState([]);
     const token = localStorage.getItem('token');
     

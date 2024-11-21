@@ -1,16 +1,14 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function ServiceView() {
-    const { id } = useParams();
+   
     const [Services, setServices] = useState([]
      );
     const token = localStorage.getItem('token');
   
-    const update = (e) => {
-      setServices({ ...Services, [e.target.name]: e.target.value });
-    };
+   
   
     useEffect(() => {
       axios.get("http://localhost:4000/viewServices", {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Logos.css'
 import img from './quote.svg'
 import { Carousel } from 'react-bootstrap';
-import { MdOutlineStar } from "react-icons/md";
+
 import { SlCalender } from "react-icons/sl";
 import axios from 'axios';
 

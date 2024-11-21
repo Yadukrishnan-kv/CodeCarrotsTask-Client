@@ -1,9 +1,9 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 function NewsEdit() {
-    const { id } = useParams();
+  
     const [News, setNews] = useState([]);
     const token = localStorage.getItem('token');
   
